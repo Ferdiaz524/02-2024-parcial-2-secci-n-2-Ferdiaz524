@@ -68,8 +68,8 @@ app.delete('/items/:id', (req, res) => {
   res.json({ message: 'Artículo eliminado' });
 });
 
-app.listen(PORT, () => {
-  console.log(`Servidor corriendo en http://localhost:${PORT}`);
+app.listen(PORT, '0.0.0.0', () => {
+  console.log(`Servidor corriendo en el puerto ${PORT}`);
 });
 
 app.get('/', (req, res) => {
