@@ -8,7 +8,7 @@ const Home = () => {
 
     const addItem = async (itemName) => {
         try {
-            const response = await fetch(`http://localhost:3000/items`, {
+            const response = await fetch(`http://34.56.94.219:3000/items`, {
                 method: "POST",
                 headers: {
                     "Content-type": "application/json",
@@ -29,7 +29,7 @@ const Home = () => {
 
     const toggleItemPurchasedById = async (itemId) => {
         try {
-            const response = await fetch(`http://localhost:3000/items/${itemId}`, {
+            const response = await fetch(`http://34.56.94.219:3000/items/${itemId}`, {
                 method: "PUT",
             });
 
@@ -43,7 +43,7 @@ const Home = () => {
 
     const deleteItemById = async (itemId) => {
         try {
-            const response = await fetch(`http://localhost:3000/items/${itemId}`, {
+            const response = await fetch(`http://34.56.94.219:3000/items/${itemId}`, {
                 method: "DELETE",
             });
 
@@ -57,7 +57,7 @@ const Home = () => {
 
     const fetchItemsFromBackend = async () => {
         try {
-            const response = await fetch(`http://localhost:3000/items`);
+            const response = await fetch(`http://34.56.94.219:3000/items`);
             if (response.ok) {
                 const items = await response.json();
                 setItemsAndSave(items);
