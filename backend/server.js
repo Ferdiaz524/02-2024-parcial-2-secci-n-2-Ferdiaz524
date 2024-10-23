@@ -8,7 +8,7 @@ const app = express();
 const PORT = process.env.PORT || 3000;
 
 const corsOptions = {
-  origin: 'http://34.56.94.219:5173/', 
+  origin: 'http://34.56.94.219', 
   methods: ['GET', 'POST', 'PUT', 'DELETE'],
   credentials: true
 };
