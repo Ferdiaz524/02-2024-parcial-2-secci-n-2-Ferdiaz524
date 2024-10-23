@@ -1,0 +1,49 @@
+.item-card {
+    display: flex;
+    align-items: center; /* Alinear elementos verticalmente */
+    justify-content: space-between; /* Espacio entre los elementos */
+    background-color: #fffffe; /* Fondo claro para el elemento */
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+    padding: 15px; /* Espaciado interno */
+    margin: 10px 0; /* Espaciado vertical entre tarjetas */
+}
+
+.mark-purchased-button {
+    background: transparent; /* Sin fondo */
+    border: none; /* Sin borde */
+    cursor: pointer; /* Cambiar cursor a puntero */
+    color: #ff8906; /* Color del ícono */
+    font-size: 24px; /* Tamaño del ícono */
+    transition: color 0.3s; /* Transición suave al cambiar color */
+}
+
+.mark-purchased-button:hover {
+    color: #0f0e17; /* Cambiar color al pasar el mouse */
+}
+
+.item-text {
+    flex: 1; /* Permitir que el texto ocupe el espacio disponible */
+    font-size: 18px; /* Tamaño del texto */
+    color: #0f0e17; /* Color del texto */
+    margin: 0 15px; /* Espaciado lateral */
+}
+
+.item-image {
+    width: 50px; /* Ancho de la imagen */
+    height: auto; /* Mantener la relación de aspecto */
+    border-radius: 4px; /* Bordes redondeados para la imagen */
+}
+
+.delete-button {
+    background: transparent; /* Sin fondo */
+    border: none; /* Sin borde */
+    cursor: pointer; /* Cambiar cursor a puntero */
+    color: #ff8906; /* Color del ícono de eliminar */
+    font-size: 24px; /* Tamaño del ícono */
+    transition: color 0.3s; /* Transición suave al cambiar color */
+}
+
+.delete-button:hover {
+    color: #0f0e17; /* Cambiar color al pasar el mouse */
+}

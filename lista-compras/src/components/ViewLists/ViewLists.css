@@ -1,0 +1,22 @@
+.shopping-list-container {
+    padding: 20px; /* Espaciado interno para la sección */
+    background-color: #fffffe; /* Fondo claro */
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+    margin-top: 20px; /* Margen superior para separación */
+}
+
+h2 {
+    color: #0f0e17; /* Color del encabezado */
+    font-size: 24px; /* Tamaño del texto */
+    margin-bottom: 15px; /* Espaciado inferior */
+}
+
+.list-items {
+    display: flex; /* Usar flexbox para el contenedor de los elementos de la lista */
+    flex-direction: column; /* Organizar en columnas */
+}
+
+.list-items .item-card {
+    margin-bottom: 10px; /* Espaciado entre cada item-card */
+}

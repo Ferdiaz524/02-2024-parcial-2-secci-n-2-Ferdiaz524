@@ -1,0 +1,22 @@
+.header-container {
+    display: flex;
+    flex-direction: column; /* Alinear elementos verticalmente */
+    align-items: center; /* Centrar elementos horizontalmente */
+    background-color: #0f0e17; /* Fondo oscuro */
+    color: #fffffe; /* Color del texto */
+    padding: 20px; /* Espaciado interno */
+    border-bottom: 3px solid #ff8906; /* Borde inferior para un efecto visual */
+    margin-bottom: 20px; /* Espaciado inferior */
+}
+
+.header-container h1 {
+    font-size: 2.5rem; /* Tamaño del título */
+    margin: 0; /* Eliminar margen por defecto */
+    text-align: center; /* Centrar texto */
+}
+
+.header-container form {
+    margin-top: 15px; /* Espaciado superior del formulario */
+    width: 100%; /* Ocupar todo el ancho disponible */
+    max-width: 600px; /* Limitar ancho máximo del formulario */
+}

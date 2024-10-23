@@ -1,0 +1,38 @@
+.newItem-Form {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #1c1b24; /* Fondo oscuro para el formulario */
+    border-radius: 8px;
+    padding: 15px;
+    margin: 20px 0; /* Espaciado superior e inferior */
+}
+
+.newItem-Form input {
+    flex-grow: 1;
+    padding: 10px;
+    border: 1px solid #ff8906; /* Borde del input */
+    border-radius: 5px;
+    margin-right: 10px; /* Espacio entre el input y el botón */
+    color: #fffffe; /* Color del texto */
+    background-color: #0f0e17; /* Fondo oscuro para el input */
+}
+
+.newItem-Form input::placeholder {
+    color: #fffffe; /* Color del placeholder */
+}
+
+.newItem-button {
+    background-color: #ff8906; /* Color de fondo del botón */
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px; /* Espaciado interno */
+    color: #fffffe; /* Color del texto */
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Transición al pasar el cursor */
+}
+
+.newItem-button:hover {
+    background-color: #e07b06; /* Color más oscuro al pasar el cursor */
+}
