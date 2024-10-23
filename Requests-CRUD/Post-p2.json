@@ -1,0 +1,76 @@
+{
+    "_type": "export",
+    "__export_format": 4,
+    "__export_date": "2024-10-20T03:44:12.154Z",
+    "__export_source": "insomnia.desktop.app:v10.0.0",
+    "resources": [
+        {
+            "_id": "req_bc23716ba32746d1a8e69e3aeaac9d86",
+            "parentId": "wrk_scratchpad",
+            "modified": 1729392339148,
+            "created": 1729111227704,
+            "url": "http://localhost:3000/items/",
+            "name": "Post-P2",
+            "description": "",
+            "method": "POST",
+            "body": {
+                "mimeType": "application/json",
+                "text": "{\n\t\"id\": 2\n}"
+            },
+            "parameters": [],
+            "headers": [
+                {
+                    "name": "Content-Type",
+                    "value": "application/json"
+                },
+                {
+                    "name": "User-Agent",
+                    "value": "insomnia/10.0.0"
+                }
+            ],
+            "authentication": {},
+            "metaSortKey": -1729111227704,
+            "isPrivate": false,
+            "pathParameters": [],
+            "settingStoreCookies": true,
+            "settingSendCookies": true,
+            "settingDisableRenderRequestBody": false,
+            "settingEncodeUrl": true,
+            "settingRebuildPath": true,
+            "settingFollowRedirects": "global",
+            "_type": "request"
+        },
+        {
+            "_id": "wrk_scratchpad",
+            "parentId": null,
+            "modified": 1729034274100,
+            "created": 1729034274100,
+            "name": "Scratch Pad",
+            "description": "",
+            "scope": "collection",
+            "_type": "workspace"
+        },
+        {
+            "_id": "env_99d30891da4bdcebc63947a8fc17f076de878684",
+            "parentId": "wrk_scratchpad",
+            "modified": 1729034282298,
+            "created": 1729034282298,
+            "name": "Base Environment",
+            "data": {},
+            "dataPropertyOrder": null,
+            "color": null,
+            "isPrivate": false,
+            "metaSortKey": 1729034282299,
+            "_type": "environment"
+        },
+        {
+            "_id": "jar_99d30891da4bdcebc63947a8fc17f076de878684",
+            "parentId": "wrk_scratchpad",
+            "modified": 1729034282398,
+            "created": 1729034282398,
+            "name": "Default Jar",
+            "cookies": [],
+            "_type": "cookie_jar"
+        }
+    ]
+}

@@ -1,0 +1,69 @@
+{
+    "_type": "export",
+    "__export_format": 4,
+    "__export_date": "2024-10-20T03:45:36.963Z",
+    "__export_source": "insomnia.desktop.app:v10.0.0",
+    "resources": [
+        {
+            "_id": "req_78d848c24f984f648f66a7dbc3e0fd84",
+            "parentId": "wrk_scratchpad",
+            "modified": 1729393380966,
+            "created": 1729111207024,
+            "url": "http://localhost:3000/items/1729393359605",
+            "name": "Del-P2",
+            "description": "",
+            "method": "DELETE",
+            "body": {},
+            "parameters": [],
+            "headers": [
+                {
+                    "name": "User-Agent",
+                    "value": "insomnia/10.0.0"
+                }
+            ],
+            "authentication": {},
+            "metaSortKey": -1729110754042,
+            "isPrivate": false,
+            "pathParameters": [],
+            "settingStoreCookies": true,
+            "settingSendCookies": true,
+            "settingDisableRenderRequestBody": false,
+            "settingEncodeUrl": true,
+            "settingRebuildPath": true,
+            "settingFollowRedirects": "global",
+            "_type": "request"
+        },
+        {
+            "_id": "wrk_scratchpad",
+            "parentId": null,
+            "modified": 1729034274100,
+            "created": 1729034274100,
+            "name": "Scratch Pad",
+            "description": "",
+            "scope": "collection",
+            "_type": "workspace"
+        },
+        {
+            "_id": "env_99d30891da4bdcebc63947a8fc17f076de878684",
+            "parentId": "wrk_scratchpad",
+            "modified": 1729034282298,
+            "created": 1729034282298,
+            "name": "Base Environment",
+            "data": {},
+            "dataPropertyOrder": null,
+            "color": null,
+            "isPrivate": false,
+            "metaSortKey": 1729034282299,
+            "_type": "environment"
+        },
+        {
+            "_id": "jar_99d30891da4bdcebc63947a8fc17f076de878684",
+            "parentId": "wrk_scratchpad",
+            "modified": 1729034282398,
+            "created": 1729034282398,
+            "name": "Default Jar",
+            "cookies": [],
+            "_type": "cookie_jar"
+        }
+    ]
+}
